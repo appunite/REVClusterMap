@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C5661BD1540A821001287CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8281F7A313D3404D00BB4FA9 /* Foundation.framework */; };
+		4C5661C31540A821001287CF /* REVClusterMapLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5661C21540A821001287CF /* REVClusterMapLib.m */; };
+		4C5661CB1540A821001287CF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5661CA1540A821001287CF /* SenTestingKit.framework */; };
+		4C5661CC1540A821001287CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8281F7A113D3404D00BB4FA9 /* UIKit.framework */; };
+		4C5661CD1540A821001287CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8281F7A313D3404D00BB4FA9 /* Foundation.framework */; };
+		4C5661D01540A821001287CF /* libREVClusterMapLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5661BC1540A821001287CF /* libREVClusterMapLib.a */; };
+		4C5661D61540A821001287CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C5661D41540A821001287CF /* InfoPlist.strings */; };
+		4C5661D91540A821001287CF /* REVClusterMapLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5661D81540A821001287CF /* REVClusterMapLibTests.m */; };
+		4C5661E01540A850001287CF /* REVAnnotationsCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8281F7C813D3412600BB4FA9 /* REVAnnotationsCollection.m */; };
+		4C5661E11540A852001287CF /* REVClusterBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 8281F7CA13D3412600BB4FA9 /* REVClusterBlock.m */; };
+		4C5661E21540A854001287CF /* REVClusterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8281F7CC13D3412600BB4FA9 /* REVClusterManager.m */; };
+		4C5661E31540A858001287CF /* REVClusterMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8281F7CF13D3412600BB4FA9 /* REVClusterMapView.m */; };
+		4C5661E41540A85A001287CF /* REVClusterPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8281F7D113D3412600BB4FA9 /* REVClusterPin.m */; };
+		4C5661E51540A860001287CF /* REVAnnotationsCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 8281F7C713D3412600BB4FA9 /* REVAnnotationsCollection.h */; settings = {ATTRIBUTES = (); }; };
+		4C5661E61540A863001287CF /* REVClusterBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 8281F7C913D3412600BB4FA9 /* REVClusterBlock.h */; settings = {ATTRIBUTES = (); }; };
+		4C5661E71540A865001287CF /* REVClusterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8281F7CB13D3412600BB4FA9 /* REVClusterManager.h */; settings = {ATTRIBUTES = (); }; };
+		4C5661E81540A868001287CF /* REVClusterMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 8281F7CD13D3412600BB4FA9 /* REVClusterMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C5661E91540A86A001287CF /* REVClusterMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8281F7CE13D3412600BB4FA9 /* REVClusterMapView.h */; settings = {ATTRIBUTES = (); }; };
+		4C5661EA1540A86D001287CF /* REVClusterPin.h in Headers */ = {isa = PBXBuildFile; fileRef = 8281F7D013D3412600BB4FA9 /* REVClusterPin.h */; settings = {ATTRIBUTES = (); }; };
 		8281F7A213D3404D00BB4FA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8281F7A113D3404D00BB4FA9 /* UIKit.framework */; };
 		8281F7A413D3404D00BB4FA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8281F7A313D3404D00BB4FA9 /* Foundation.framework */; };
 		8281F7A613D3404D00BB4FA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8281F7A513D3404D00BB4FA9 /* CoreGraphics.framework */; };
@@ -37,7 +56,27 @@
 		8281F7FD13D34BAE00BB4FA9 /* REVClusterAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8281F7FC13D34BAE00BB4FA9 /* REVClusterAnnotationView.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4C5661CE1540A821001287CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8281F79413D3404D00BB4FA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C5661BB1540A821001287CF;
+			remoteInfo = REVClusterMapLib;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		4C5661BC1540A821001287CF /* libREVClusterMapLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libREVClusterMapLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5661C01540A821001287CF /* REVClusterMapLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "REVClusterMapLib-Prefix.pch"; sourceTree = "<group>"; };
+		4C5661C11540A821001287CF /* REVClusterMapLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = REVClusterMapLib.h; sourceTree = "<group>"; };
+		4C5661C21540A821001287CF /* REVClusterMapLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = REVClusterMapLib.m; sourceTree = "<group>"; };
+		4C5661C91540A821001287CF /* REVClusterMapLibTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = REVClusterMapLibTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5661CA1540A821001287CF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4C5661D31540A821001287CF /* REVClusterMapLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "REVClusterMapLibTests-Info.plist"; sourceTree = "<group>"; };
+		4C5661D51540A821001287CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C5661D71540A821001287CF /* REVClusterMapLibTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = REVClusterMapLibTests.h; sourceTree = "<group>"; };
+		4C5661D81540A821001287CF /* REVClusterMapLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = REVClusterMapLibTests.m; sourceTree = "<group>"; };
 		8281F79D13D3404D00BB4FA9 /* REVClusterMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = REVClusterMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8281F7A113D3404D00BB4FA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8281F7A313D3404D00BB4FA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,6 +122,25 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4C5661B91540A821001287CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5661BD1540A821001287CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5661C51540A821001287CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5661CB1540A821001287CF /* SenTestingKit.framework in Frameworks */,
+				4C5661CC1540A821001287CF /* UIKit.framework in Frameworks */,
+				4C5661CD1540A821001287CF /* Foundation.framework in Frameworks */,
+				4C5661D01540A821001287CF /* libREVClusterMapLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8281F79A13D3404D00BB4FA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,11 +155,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C5661BE1540A821001287CF /* REVClusterMapLib */ = {
+			isa = PBXGroup;
+			children = (
+				4C5661C11540A821001287CF /* REVClusterMapLib.h */,
+				4C5661C21540A821001287CF /* REVClusterMapLib.m */,
+				4C5661BF1540A821001287CF /* Supporting Files */,
+			);
+			path = REVClusterMapLib;
+			sourceTree = "<group>";
+		};
+		4C5661BF1540A821001287CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C5661C01540A821001287CF /* REVClusterMapLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C5661D11540A821001287CF /* REVClusterMapLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C5661D71540A821001287CF /* REVClusterMapLibTests.h */,
+				4C5661D81540A821001287CF /* REVClusterMapLibTests.m */,
+				4C5661D21540A821001287CF /* Supporting Files */,
+			);
+			path = REVClusterMapLibTests;
+			sourceTree = "<group>";
+		};
+		4C5661D21540A821001287CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C5661D31540A821001287CF /* REVClusterMapLibTests-Info.plist */,
+				4C5661D41540A821001287CF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		8281F79213D3404D00BB4FA9 = {
 			isa = PBXGroup;
 			children = (
 				8281F7D713D3413B00BB4FA9 /* MapKit.framework */,
 				8281F7A713D3404D00BB4FA9 /* REVClusterMap */,
+				4C5661BE1540A821001287CF /* REVClusterMapLib */,
+				4C5661D11540A821001287CF /* REVClusterMapLibTests */,
 				8281F7A013D3404D00BB4FA9 /* Frameworks */,
 				8281F79E13D3404D00BB4FA9 /* Products */,
 			);
@@ -111,6 +208,8 @@
 			isa = PBXGroup;
 			children = (
 				8281F79D13D3404D00BB4FA9 /* REVClusterMap.app */,
+				4C5661BC1540A821001287CF /* libREVClusterMapLib.a */,
+				4C5661C91540A821001287CF /* REVClusterMapLibTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +220,7 @@
 				8281F7A113D3404D00BB4FA9 /* UIKit.framework */,
 				8281F7A313D3404D00BB4FA9 /* Foundation.framework */,
 				8281F7A513D3404D00BB4FA9 /* CoreGraphics.framework */,
+				4C5661CA1540A821001287CF /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -219,7 +319,59 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		4C5661BA1540A821001287CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5661E81540A868001287CF /* REVClusterMap.h in Headers */,
+				4C5661E51540A860001287CF /* REVAnnotationsCollection.h in Headers */,
+				4C5661E61540A863001287CF /* REVClusterBlock.h in Headers */,
+				4C5661EA1540A86D001287CF /* REVClusterPin.h in Headers */,
+				4C5661E91540A86A001287CF /* REVClusterMapView.h in Headers */,
+				4C5661E71540A865001287CF /* REVClusterManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		4C5661BB1540A821001287CF /* REVClusterMapLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5661DA1540A821001287CF /* Build configuration list for PBXNativeTarget "REVClusterMapLib" */;
+			buildPhases = (
+				4C5661B81540A821001287CF /* Sources */,
+				4C5661B91540A821001287CF /* Frameworks */,
+				4C5661BA1540A821001287CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = REVClusterMapLib;
+			productName = REVClusterMapLib;
+			productReference = 4C5661BC1540A821001287CF /* libREVClusterMapLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4C5661C81540A821001287CF /* REVClusterMapLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5661DD1540A821001287CF /* Build configuration list for PBXNativeTarget "REVClusterMapLibTests" */;
+			buildPhases = (
+				4C5661C41540A821001287CF /* Sources */,
+				4C5661C51540A821001287CF /* Frameworks */,
+				4C5661C61540A821001287CF /* Resources */,
+				4C5661C71540A821001287CF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C5661CF1540A821001287CF /* PBXTargetDependency */,
+			);
+			name = REVClusterMapLibTests;
+			productName = REVClusterMapLibTests;
+			productReference = 4C5661C91540A821001287CF /* REVClusterMapLibTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		8281F79C13D3404D00BB4FA9 /* REVClusterMap */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8281F7C313D3404D00BB4FA9 /* Build configuration list for PBXNativeTarget "REVClusterMap" */;
@@ -258,11 +410,21 @@
 			projectRoot = "";
 			targets = (
 				8281F79C13D3404D00BB4FA9 /* REVClusterMap */,
+				4C5661BB1540A821001287CF /* REVClusterMapLib */,
+				4C5661C81540A821001287CF /* REVClusterMapLibTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4C5661C61540A821001287CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5661D61540A821001287CF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8281F79B13D3404D00BB4FA9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -285,7 +447,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C5661C71540A821001287CF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		4C5661B81540A821001287CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5661C31540A821001287CF /* REVClusterMapLib.m in Sources */,
+				4C5661E01540A850001287CF /* REVAnnotationsCollection.m in Sources */,
+				4C5661E11540A852001287CF /* REVClusterBlock.m in Sources */,
+				4C5661E41540A85A001287CF /* REVClusterPin.m in Sources */,
+				4C5661E31540A858001287CF /* REVClusterMapView.m in Sources */,
+				4C5661E21540A854001287CF /* REVClusterManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5661C41540A821001287CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5661D91540A821001287CF /* REVClusterMapLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8281F79913D3404D00BB4FA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -306,7 +505,23 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4C5661CF1540A821001287CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C5661BB1540A821001287CF /* REVClusterMapLib */;
+			targetProxy = 4C5661CE1540A821001287CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		4C5661D41540A821001287CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5661D51540A821001287CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		8281F7AA13D3404D00BB4FA9 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -334,6 +549,96 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4C5661DB1540A821001287CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/REVClusterMapLib.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "REVClusterMapLib/REVClusterMapLib-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/REVClusterMap;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		4C5661DC1540A821001287CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/REVClusterMapLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "REVClusterMapLib/REVClusterMapLib-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/REVClusterMap;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		4C5661DE1540A821001287CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "REVClusterMapLib/REVClusterMapLib-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "REVClusterMapLibTests/REVClusterMapLibTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4C5661DF1540A821001287CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "REVClusterMapLib/REVClusterMapLib-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "REVClusterMapLibTests/REVClusterMapLibTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		8281F7C113D3404D00BB4FA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -399,6 +704,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4C5661DA1540A821001287CF /* Build configuration list for PBXNativeTarget "REVClusterMapLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5661DB1540A821001287CF /* Debug */,
+				4C5661DC1540A821001287CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C5661DD1540A821001287CF /* Build configuration list for PBXNativeTarget "REVClusterMapLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5661DE1540A821001287CF /* Debug */,
+				4C5661DF1540A821001287CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		8281F79713D3404D00BB4FA9 /* Build configuration list for PBXProject "REVClusterMap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -415,6 +736,7 @@
 				8281F7C513D3404D00BB4FA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
