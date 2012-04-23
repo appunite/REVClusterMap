@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C34A83915434147002EEE71 /* REVClusterAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8281F7FB13D34BAE00BB4FA9 /* REVClusterAnnotationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C34A83B1543414D002EEE71 /* REVClusterAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8281F7FC13D34BAE00BB4FA9 /* REVClusterAnnotationView.m */; settings = {ATTRIBUTES = (Private, ); }; };
 		4C5661BD1540A821001287CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8281F7A313D3404D00BB4FA9 /* Foundation.framework */; };
 		4C5661C31540A821001287CF /* REVClusterMapLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5661C21540A821001287CF /* REVClusterMapLib.m */; };
 		4C5661CB1540A821001287CF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5661CA1540A821001287CF /* SenTestingKit.framework */; };
@@ -325,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C5661E81540A868001287CF /* REVClusterMap.h in Headers */,
+				4C34A83915434147002EEE71 /* REVClusterAnnotationView.h in Headers */,
 				4C5661E51540A860001287CF /* REVAnnotationsCollection.h in Headers */,
 				4C5661E61540A863001287CF /* REVClusterBlock.h in Headers */,
 				4C5661EA1540A86D001287CF /* REVClusterPin.h in Headers */,
@@ -473,6 +476,7 @@
 				4C5661E11540A852001287CF /* REVClusterBlock.m in Sources */,
 				4C5661E41540A85A001287CF /* REVClusterPin.m in Sources */,
 				4C5661E31540A858001287CF /* REVClusterMapView.m in Sources */,
+				4C34A83B1543414D002EEE71 /* REVClusterAnnotationView.m in Sources */,
 				4C5661E21540A854001287CF /* REVClusterManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -711,6 +715,7 @@
 				4C5661DC1540A821001287CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C5661DD1540A821001287CF /* Build configuration list for PBXNativeTarget "REVClusterMapLibTests" */ = {
 			isa = XCConfigurationList;
@@ -719,6 +724,7 @@
 				4C5661DF1540A821001287CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8281F79713D3404D00BB4FA9 /* Build configuration list for PBXProject "REVClusterMap" */ = {
 			isa = XCConfigurationList;
