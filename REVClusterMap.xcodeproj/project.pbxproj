@@ -22,12 +22,12 @@
 		4C5661E21540A854001287CF /* REVClusterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8281F7CC13D3412600BB4FA9 /* REVClusterManager.m */; };
 		4C5661E31540A858001287CF /* REVClusterMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8281F7CF13D3412600BB4FA9 /* REVClusterMapView.m */; };
 		4C5661E41540A85A001287CF /* REVClusterPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8281F7D113D3412600BB4FA9 /* REVClusterPin.m */; };
-		4C5661E51540A860001287CF /* REVAnnotationsCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 8281F7C713D3412600BB4FA9 /* REVAnnotationsCollection.h */; settings = {ATTRIBUTES = (); }; };
-		4C5661E61540A863001287CF /* REVClusterBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 8281F7C913D3412600BB4FA9 /* REVClusterBlock.h */; settings = {ATTRIBUTES = (); }; };
-		4C5661E71540A865001287CF /* REVClusterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8281F7CB13D3412600BB4FA9 /* REVClusterManager.h */; settings = {ATTRIBUTES = (); }; };
+		4C5661E51540A860001287CF /* REVAnnotationsCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 8281F7C713D3412600BB4FA9 /* REVAnnotationsCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C5661E61540A863001287CF /* REVClusterBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 8281F7C913D3412600BB4FA9 /* REVClusterBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C5661E71540A865001287CF /* REVClusterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8281F7CB13D3412600BB4FA9 /* REVClusterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C5661E81540A868001287CF /* REVClusterMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 8281F7CD13D3412600BB4FA9 /* REVClusterMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C5661E91540A86A001287CF /* REVClusterMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8281F7CE13D3412600BB4FA9 /* REVClusterMapView.h */; settings = {ATTRIBUTES = (); }; };
-		4C5661EA1540A86D001287CF /* REVClusterPin.h in Headers */ = {isa = PBXBuildFile; fileRef = 8281F7D013D3412600BB4FA9 /* REVClusterPin.h */; settings = {ATTRIBUTES = (); }; };
+		4C5661E91540A86A001287CF /* REVClusterMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8281F7CE13D3412600BB4FA9 /* REVClusterMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C5661EA1540A86D001287CF /* REVClusterPin.h in Headers */ = {isa = PBXBuildFile; fileRef = 8281F7D013D3412600BB4FA9 /* REVClusterPin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8281F7A213D3404D00BB4FA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8281F7A113D3404D00BB4FA9 /* UIKit.framework */; };
 		8281F7A413D3404D00BB4FA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8281F7A313D3404D00BB4FA9 /* Foundation.framework */; };
 		8281F7A613D3404D00BB4FA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8281F7A513D3404D00BB4FA9 /* CoreGraphics.framework */; };
@@ -327,12 +327,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C5661E81540A868001287CF /* REVClusterMap.h in Headers */,
-				4C34A83915434147002EEE71 /* REVClusterAnnotationView.h in Headers */,
 				4C5661E51540A860001287CF /* REVAnnotationsCollection.h in Headers */,
-				4C5661E61540A863001287CF /* REVClusterBlock.h in Headers */,
 				4C5661EA1540A86D001287CF /* REVClusterPin.h in Headers */,
-				4C5661E91540A86A001287CF /* REVClusterMapView.h in Headers */,
+				4C34A83915434147002EEE71 /* REVClusterAnnotationView.h in Headers */,
+				4C5661E61540A863001287CF /* REVClusterBlock.h in Headers */,
 				4C5661E71540A865001287CF /* REVClusterManager.h in Headers */,
+				4C5661E91540A86A001287CF /* REVClusterMapView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
